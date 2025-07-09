@@ -1,43 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   /**
-   * Tailwind CSS theme
-   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
-   * A different format will require also updating the theme in tailwind.config.ts.
+   * Tailwind CSS theme - Coffee Shop Colors
+   * Using HSL format for tailwind compatibility
   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 32 24% 97%;
+    --foreground: 30 100% 12%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 32 24% 97%;
+    --card-foreground: 30 100% 12%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 32 24% 97%;
+    --popover-foreground: 30 100% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 30 100% 18%;
+    --primary-foreground: 32 24% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 31 20% 90%;
+    --secondary-foreground: 30 100% 18%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 31 20% 90%;
+    --muted-foreground: 30 20% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 31 20% 90%;
+    --accent-foreground: 30 100% 18%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 31 20% 85%;
+    --input: 31 20% 85%;
+    --ring: 30 100% 18%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Coffee Color Palette */
+    --coffee-50: 32 24% 97%;
+    --coffee-100: 31 20% 90%;
+    --coffee-200: 30 18% 80%;
+    --coffee-300: 29 16% 70%;
+    --coffee-400: 28 15% 55%;
+    --coffee-500: 27 20% 40%;
+    --coffee-600: 26 25% 30%;
+    --coffee-700: 25 30% 22%;
+    --coffee-800: 24 35% 15%;
+    --coffee-900: 30 100% 18%;
+    --coffee-950: 30 100% 12%;
+
+    /* Cream Color Palette */
+    --cream-50: 32 24% 97%;
+    --cream-100: 31 20% 90%;
+    --cream-200: 30 18% 80%;
+    --cream-300: 29 16% 70%;
+    --cream-400: 28 15% 55%;
+    --cream-500: 27 20% 40%;
 
     --sidebar-background: 0 0% 98%;
 
