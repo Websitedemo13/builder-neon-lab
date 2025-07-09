@@ -88,7 +88,7 @@ export const Navbar: React.FC = () => {
             ))}
           </div>
 
-          {/* Language Toggle & Mobile Menu */}
+          {/* Right Side Actions */}
           <div className="flex items-center space-x-4">
             {/* Language Toggle */}
             <Button
@@ -102,6 +102,31 @@ export const Navbar: React.FC = () => {
                 {language.toUpperCase()}
               </span>
             </Button>
+
+            {/* Auth Buttons or User Menu */}
+            {isAuthenticated ? (
+              <UserMenu />
+            ) : (
+              <div className="hidden lg:flex items-center space-x-2">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => openAuthModal("login")}
+                  className="text-coffee-600 hover:text-coffee-900"
+                >
+                  <LogIn className="w-4 h-4 mr-2" />
+                  {language === "vi" ? "Đăng nhập" : "Sign In"}
+                </Button>
+                <Button
+                  size="sm"
+                  onClick={() => openAuthModal("signup")}
+                  className="bg-coffee-900 text-cream-100 hover:bg-coffee-800"
+                >
+                  <UserPlus className="w-4 h-4 mr-2" />
+                  {language === "vi" ? "Đăng ký" : "Sign Up"}
+                </Button>
+              </div>
+            )}
 
             {/* Mobile Menu Button */}
             <Button
