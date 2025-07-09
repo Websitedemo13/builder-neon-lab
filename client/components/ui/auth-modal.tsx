@@ -34,6 +34,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({
           "data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95",
         )}
       >
+        <DialogTitle className="sr-only">
+          {mode === "login" ? "Sign In" : "Sign Up"}
+        </DialogTitle>
         <div className="relative">
           {/* Close button */}
           <button
