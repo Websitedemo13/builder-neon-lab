@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { X } from "lucide-react";
-import { Dialog, DialogContent, DialogOverlay } from "./dialog";
+import { Dialog, DialogContent, DialogOverlay, DialogTitle } from "./dialog";
 import { LoginForm } from "./login-form";
 import { SignupForm } from "./signup-form";
 import { cn } from "@/lib/utils";
