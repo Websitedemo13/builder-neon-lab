@@ -38,15 +38,21 @@ export const Navbar: React.FC = () => {
     setLanguage(language === "vi" ? "en" : "vi");
   };
 
+  const openAuthModal = (mode: "login" | "signup") => {
+    setAuthMode(mode);
+    setAuthModalOpen(true);
+  };
+
   return (
-    <nav
-      className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        isScrolled
-          ? "bg-background/90 backdrop-blur-md shadow-lg"
-          : "bg-transparent",
-      )}
-    >
+    <>
+      <nav
+        className={cn(
+          "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+          isScrolled
+            ? "bg-background/90 backdrop-blur-md shadow-lg"
+            : "bg-transparent",
+        )}
+      >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 lg:h-20">
           {/* Logo */}
