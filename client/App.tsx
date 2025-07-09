@@ -27,22 +27,23 @@ const App = () => (
           <Toaster />
           <Sonner />
           <BrowserRouter>
-          <div className="min-h-screen flex flex-col">
-            <Navbar />
-            <main className="flex-1">
-              <Routes>
-                <Route path="/" element={<Index />} />
-                <Route path="/menu" element={<Menu />} />
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/booking" element={<Booking />} />
-                <Route path="*" element={<NotFound />} />
-              </Routes>
-            </main>
-            <Footer />
-          </div>
-        </BrowserRouter>
-      </TooltipProvider>
+            <div className="min-h-screen flex flex-col">
+              <Navbar />
+              <main className="flex-1">
+                <Routes>
+                  <Route path="/" element={<Index />} />
+                  <Route path="/menu" element={<Menu />} />
+                  <Route path="/blog" element={<Blog />} />
+                  <Route path="/contact" element={<Contact />} />
+                  <Route path="/booking" element={<Booking />} />
+                  <Route path="*" element={<NotFound />} />
+                </Routes>
+              </main>
+              <Footer />
+            </div>
+          </BrowserRouter>
+        </TooltipProvider>
+      </AuthProvider>
     </LanguageProvider>
   </QueryClientProvider>
 );
