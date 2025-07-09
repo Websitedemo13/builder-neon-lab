@@ -1,0 +1,90 @@
+[
+  {
+    "id": "story-of-song-koffi",
+    "title": {
+      "vi": "Câu Chuyện Sống KOFFI",
+      "en": "The Story of Song KOFFI"
+    },
+    "excerpt": {
+      "vi": "Hành trình từ một ý tưởng nhỏ đến quán cà phê được yêu thích nhất phố Sư Vạn Hạnh...",
+      "en": "The journey from a small idea to the most beloved coffee shop on Su Van Hanh street..."
+    },
+    "content": {
+      "vi": "Sống KOFFI được sinh ra từ tình yêu dành cho cà phê và mong muốn tạo ra một không gian thật gần gũi, nơi mọi người có thể tận hưởng những phút giây yên bình bên tách cà phê thơm ngon. Chúng tôi tin rằng cuộc sống không nên bị lãng phí, mà nên được sống trọn vẹn với những trải nghiệm đáng nhớ.",
+      "en": "Song KOFFI was born from a love of coffee and the desire to create a truly intimate space where people can enjoy peaceful moments with delicious coffee. We believe that life should not be wasted, but should be lived fully with memorable experiences."
+    },
+    "image": "/api/placeholder/600/400",
+    "date": "2024-01-15",
+    "author": {
+      "vi": "Đội ngũ Sống KOFFI",
+      "en": "Song KOFFI Team"
+    },
+    "featured": true
+  },
+  {
+    "id": "coffee-brewing-guide",
+    "title": {
+      "vi": "Bí Quyết Pha Cà Phê Ngon",
+      "en": "Secrets to Brewing Perfect Coffee"
+    },
+    "excerpt": {
+      "vi": "Khám phá những bí quyết để pha một tách cà phê hoàn hảo tại nhà với những mẹo từ barista chuyên nghiệp...",
+      "en": "Discover the secrets to brewing the perfect cup of coffee at home with tips from professional baristas..."
+    },
+    "content": {
+      "vi": "Pha cà phê là một nghệ thuật đòi hỏi sự tỉ mỉ và kiên nhẫn. Từ việc chọn hạt cà phê chất lượng đến kiểm soát nhiệt độ nước, mỗi bước đều quan trọng để tạo ra một tách cà phê hoàn hảo. Hãy cùng chúng tôi khám phá những bí quyết này.",
+      "en": "Brewing coffee is an art that requires precision and patience. From selecting quality coffee beans to controlling water temperature, every step is important to create the perfect cup of coffee. Let's explore these secrets together."
+    },
+    "image": "/api/placeholder/600/400",
+    "date": "2024-01-10",
+    "author": {
+      "vi": "Barista Minh",
+      "en": "Barista Minh"
+    },
+    "featured": false
+  },
+  {
+    "id": "coffee-health-benefits",
+    "title": {
+      "vi": "Lợi Ích Sức Khỏe Của Cà Phê",
+      "en": "Health Benefits of Coffee"
+    },
+    "excerpt": {
+      "vi": "Tìm hiểu về những lợi ích tuyệt vời mà cà phê mang lại cho sức khỏe khi được sử dụng đúng cách...",
+      "en": "Learn about the amazing health benefits that coffee brings when consumed properly..."
+    },
+    "content": {
+      "vi": "Cà phê không chỉ giúp chúng ta tỉnh táo mà còn mang lại nhiều lợi ích cho sức khỏe. Từ việc cải thiện chức năng não bộ đến hỗ trợ quá trình trao đổi chất, cà phê thực sự là một thức uống tuyệt vời khi được sử dụng một cách hợp lý.",
+      "en": "Coffee not only helps us stay alert but also provides many health benefits. From improving brain function to supporting metabolism, coffee is truly a wonderful beverage when used reasonably."
+    },
+    "image": "/api/placeholder/600/400",
+    "date": "2024-01-05",
+    "author": {
+      "vi": "Dr. Coffee Lover",
+      "en": "Dr. Coffee Lover"
+    },
+    "featured": false
+  },
+  {
+    "id": "seasonal-menu-winter",
+    "title": {
+      "vi": "Menu Mùa Đông Ấm Áp",
+      "en": "Warm Winter Menu"
+    },
+    "excerpt": {
+      "vi": "Khám phá menu mùa đông đặc biệt với những món đồ uống ấm áp và bánh ngọt thơm ngon...",
+      "en": "Discover our special winter menu with warm beverages and delicious pastries..."
+    },
+    "content": {
+      "vi": "Mùa đông đã đến, và chúng tôi đã chuẩn bị một menu đặc biệt để mang lại sự ấm áp cho những ngày se lạnh. Từ hot chocolate thơm ngon đến các loại trà pha chế độc đáo, mỗi món đều được chế biến với tình yêu và sự tỉ mỉ.",
+      "en": "Winter has arrived, and we have prepared a special menu to bring warmth to the cold days. From delicious hot chocolate to unique blended teas, each drink is prepared with love and care."
+    },
+    "image": "/api/placeholder/600/400",
+    "date": "2023-12-20",
+    "author": {
+      "vi": "Chef Hương",
+      "en": "Chef Huong"
+    },
+    "featured": true
+  }
+]
