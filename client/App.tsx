@@ -15,6 +15,7 @@ import Menu from "./pages/Menu";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Booking from "./pages/Booking";
+import AdminDashboard from "./pages/AdminDashboard";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
