@@ -63,7 +63,7 @@ const translations: Translations = {
   // About Section
   "about.title": { vi: "Về Sống KOFFI", en: "About Sống KOFFI" },
   "about.description": {
-    vi: "Chào mừng đến với Sống KOFFI - nơi mang đến cho bạn trải nghiệm cà phê đích thực với không gian ấm cúng và những câu chuyện đ��i thường.",
+    vi: "Chào mừng đến với Sống KOFFI - nơi mang đến cho bạn trải nghiệm cà phê đích thực với không gian ấm cúng và những câu chuyện đời thường.",
     en: "Welcome to Sống KOFFI - where we bring you authentic coffee experiences with cozy atmosphere and everyday life stories.",
   },
 
@@ -100,6 +100,16 @@ const translations: Translations = {
   "booking.form.area.sofa": { vi: "Khu Sofa", en: "Sofa Area" },
   "booking.form.notes": { vi: "Ghi chú", en: "Notes" },
   "booking.form.submit": { vi: "Đặt Bàn", en: "Book Table" },
+
+  // Authentication
+  "auth.login": { vi: "Đăng Nhập", en: "Sign In" },
+  "auth.signup": { vi: "Đăng Ký", en: "Sign Up" },
+  "auth.logout": { vi: "Đăng Xuất", en: "Sign Out" },
+  "auth.profile": { vi: "Hồ Sơ", en: "Profile" },
+  "auth.orders": { vi: "Đơn Hàng", en: "Orders" },
+  "auth.favorites": { vi: "Yêu Thích", en: "Favorites" },
+  "auth.settings": { vi: "Cài Đặt", en: "Settings" },
+  "auth.admin": { vi: "Quản Trị", en: "Admin" },
 
   // Common
   "common.loading": { vi: "Đang tải...", en: "Loading..." },
