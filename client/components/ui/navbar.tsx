@@ -1,15 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Coffee, Globe } from "lucide-react";
+import { Menu, X, Coffee, Globe, LogIn, UserPlus } from "lucide-react";
 import { Button } from "./button";
+import { AuthModal } from "./auth-modal";
+import { UserMenu } from "./user-menu";
 import { useLanguage } from "@/hooks/use-language";
+import { useAuth } from "@/hooks/use-auth";
 import { cn } from "@/lib/utils";
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [authModalOpen, setAuthModalOpen] = useState(false);
+  const [authMode, setAuthMode] = useState<"login" | "signup">("login");
   const location = useLocation();
   const { language, setLanguage, t } = useLanguage();
+  const { isAuthenticated, user } = useAuth();
 
   useEffect(() => {
     const handleScroll = () => {
