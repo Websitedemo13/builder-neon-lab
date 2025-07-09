@@ -1,0 +1,122 @@
+[
+  {
+    "id": "esp-classic",
+    "name": {
+      "vi": "Espresso Cổ Điển",
+      "en": "Classic Espresso"
+    },
+    "description": {
+      "vi": "Hương vị đậm đà, tinh túy của cà phê Arabica",
+      "en": "Rich, pure essence of Arabica coffee"
+    },
+    "price": 45000,
+    "category": "espresso",
+    "featured": true,
+    "image": "/api/placeholder/300/300"
+  },
+  {
+    "id": "cb-smooth",
+    "name": {
+      "vi": "Cold Brew Mượt Mà",
+      "en": "Smooth Cold Brew"
+    },
+    "description": {
+      "vi": "Cà phê pha lạnh 12 tiếng, vị ngọt tự nhiên",
+      "en": "12-hour cold brew with natural sweetness"
+    },
+    "price": 55000,
+    "category": "coldbrew",
+    "featured": true,
+    "image": "/api/placeholder/300/300"
+  },
+  {
+    "id": "sig-song",
+    "name": {
+      "vi": "Sống KOFFI Đặc Biệt",
+      "en": "Song KOFFI Special"
+    },
+    "description": {
+      "vi": "Công thức bí mật của nhà, pha chế với tình yêu",
+      "en": "Our secret recipe, crafted with love"
+    },
+    "price": 65000,
+    "category": "signature",
+    "featured": true,
+    "image": "/api/placeholder/300/300"
+  },
+  {
+    "id": "cap-classic",
+    "name": {
+      "vi": "Cappuccino Cổ Điển",
+      "en": "Classic Cappuccino"
+    },
+    "description": {
+      "vi": "Espresso kết hợp với sữa tươi được đánh bông mịn",
+      "en": "Espresso with perfectly steamed milk foam"
+    },
+    "price": 50000,
+    "category": "espresso",
+    "featured": false,
+    "image": "/api/placeholder/300/300"
+  },
+  {
+    "id": "latte-vanilla",
+    "name": {
+      "vi": "Latte Vani",
+      "en": "Vanilla Latte"
+    },
+    "description": {
+      "vi": "Latte thơm ngọt với syrup vani tự nhiên",
+      "en": "Sweet latte with natural vanilla syrup"
+    },
+    "price": 55000,
+    "category": "espresso",
+    "featured": false,
+    "image": "/api/placeholder/300/300"
+  },
+  {
+    "id": "cb-orange",
+    "name": {
+      "vi": "Cold Brew Cam Tươi",
+      "en": "Orange Cold Brew"
+    },
+    "description": {
+      "vi": "Cold brew kết hợp với cam tươi ngọt mát",
+      "en": "Cold brew combined with fresh orange"
+    },
+    "price": 60000,
+    "category": "coldbrew",
+    "featured": false,
+    "image": "/api/placeholder/300/300"
+  },
+  {
+    "id": "croissant",
+    "name": {
+      "vi": "Bánh Sừng Bò",
+      "en": "Croissant"
+    },
+    "description": {
+      "vi": "Bánh sừng bò bơ tươi, giòn tan",
+      "en": "Fresh butter croissant, crispy and flaky"
+    },
+    "price": 35000,
+    "category": "pastry",
+    "featured": false,
+    "image": "/api/placeholder/300/300"
+  },
+  {
+    "id": "tiramisu",
+    "name": {
+      "vi": "Tiramisu",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "vi": "Bánh tiramisu với hương cà phê đặc trưng",
+      "en": "Classic tiramisu with coffee flavor"
+    },
+    "price": 65000,
+    "category": "pastry",
+    "featured": true,
+    "image": "/api/placeholder/300/300"
+  }
+]
